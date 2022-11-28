@@ -63,25 +63,112 @@ function App() {
 
         </div>
       </div>
-      <div className='flex flex-row justify-between m-11'>
+      <div className='flex flex-row justify-between items-start m-11'>
 
-        <div className='ml-60 -mt-20'>
+        <div className='ml-60 -mt-40'>
           <img className='rounded-b-full w-[250px] h-[250px]' src='/images/img 1.jpg' alt=''>
 
           </img>
 
         </div>
-        <div className='bg-white box-content h-10 w-96 p-4 border-4 ...'>
+        <div className='abcd bg-white box-content h-10 w-96 p-4 border-4  -m-56 '>
           <p className='text-xs font-thin mb-5'>Register Using Email Address</p>
-          <h1 className='text-lg font-bold'>samantha@email.com</h1>
-          <button className='float-right rounded-full bg-blue-800'>Register</button>
+          <h1 className='text-lg font-bold -mt-5'>samantha@email.com</h1>
+          <button className='float-right text-sm bg-purple-800 -mt-11 py-3 px-10 rounded inline-flex items-center '>Register</button>
         </div>
-        <div className='-mt-36'>
-          <img className='rounded-b-full w-[250px] h-[250px]' src='/images/Img 2.jpg' alt=''>
+        <div className='-mt-52 gap-4 mr-20'>
+          <img className='rounded-b-full w-[248px] h-[250px]' src='/images/Img 2.jpg' alt=''>
 
           </img>
 
         </div>
+      </div>
+      <div className='flex flex-row justify-around'>
+        <div>
+          <h1 className='text-5xl mt-28'>Chat with visitors <br></br> while they browse <br></br> your site</h1>
+        </div>
+        <div className='mt-10 -mr-12 '>
+          <img className='rounded-full pb-40  w-[250px] h-[450px]' src='./images/Img 3.jpg' alt='' ></img>
+          <div className='relative text-sm text-center bg-amber-900 -mt-80 mr-24 w-44  -ml-40 rounded-tl-lg rounded-tr-lg rounded-bl-lg'>
+
+            <p className=''>Hi Karen, I’m wandering <br></br> is it possible to order <br></br> custom drawing?</p>
+
+
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+
+      <div className='flex flex-row justify-around mt-20'>
+
+        <div className='-ml-16'>
+          <p className='text-sm'>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br></br> sed do eiusmod tempor incididunt ut labore et dolore <br></br> magna aliqua. Ut enim ad minim veniam.”</p>
+          <div className='flex flex-row mt-10'>
+            <div>
+              <img className='rounded-full' src='/images/Bitmap.jpg' alt=''></img>
+            </div>
+            <div className='ml-3 mt-2'>
+              <h1 className='text-sm font-bold'>Samantha William</h1>
+              <p className='text-xs text-gray-300'>Owner of Online Fashion Store</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div>
+          <div className='-ml-96 w-[260px] -mt-2 '>
+            <img className='rounded-b-full w-[260px] h-[300px]' src='./images/image 6.jpg' alt='' ></img>
+          </div>
+
+        </div>
+
+
+
+
+
+
+      </div>
+
+      <div className='grid justify-items-end relative -mt-52 mr-56 gap-9 -ml-48 '>
+
+        <div className='rounded-full bg-slate-600 w-[130px] h-[50px] text-xs text-white text-center pt-3 -mt-10 '>
+          <h1>Hi Samantha</h1>
+        </div>
+        <div className='rounded-full bg-slate-600 w-[219px] h-[50px] text-xs text-center pt-4 text-white -mt-8'>
+          <h1>Yes, You can order custom drawing</h1>
+        </div>
+
+      </div>
+
+      <div>
+
+        <div className='flex flex-row justify-center mt-52 '>
+          <div className='mr-96 -ml-60'>
+            <img className='rounded-full w-[270px] h-[470px] ' src='./images/image 10.jpg' alt='' ></img>
+
+          </div>
+
+        </div>
+
+        <div className='flex flex-row rounded-full bg-white-500 border-r-8 w-[120px] h-[60px] '>
+
+          <div className='rounded-full border border-green-600 bg-green-500 w-[30px] h-[30px]'>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
+            </svg>
+
+          </div>
+          <div>
+            <h1>start video call</h1>
+            <p>with Angelo Smith</p>
+          </div>
+
+        </div>
+
       </div>
 
     </>
