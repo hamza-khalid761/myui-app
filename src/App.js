@@ -37,7 +37,7 @@ function App() {
           </div>
           <div className="flex flex-row gap-x-12" >
             <h2 className='p-5'>Sign UP</h2>
-            <h2 className='bg-gray-50 rounded-full w-[120px] h-[70px] p-5 text-center -ml-10'>Login</h2>
+            <h2 className='bg-gray-50 rounded-full w-[120px] h-[70px] p-5 text-center -ml-10 rounded-tl-xl '>Login</h2>
           </div>
         </div>
       </nav>
@@ -147,6 +147,7 @@ function App() {
       <div>
 
         <div className='flex flex-row justify-center mt-52 '>
+          
           <div className='mr-96 -ml-60'>
             <img className='rounded-full w-[270px] h-[470px] ' src='./images/image 10.jpg' alt='' ></img>
 
@@ -154,22 +155,45 @@ function App() {
 
         </div>
 
-        <div className='flex flex-row rounded-full bg-white-500 border-r-8 w-[120px] h-[60px] '>
+        <div className='flex flex-row rounded-full bg-white-900 border-r-8 w-[200px] h-[90px] text-center pt-5 justify-center -mt-28 ml-20 '>
 
-          <div className='rounded-full border border-green-600 bg-green-500 w-[30px] h-[30px]'>
+          <div className='rounded-full border border-green-600 bg-green-500 w-[30px] h-[30px] justify-center mt-2'>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
               <path stroke-linecap="round" d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
             </svg>
 
           </div>
-          <div>
-            <h1>start video call</h1>
+          
+          <div className='justify-center ml-3 mt-1'>
+            <h1 className='font-bold'>start video call</h1>
+            <div className='text-xs text-gray-300 -ml-2'>
             <p>with Angelo Smith</p>
+            </div>
+            <div className='absolute -mt-96 ml-72 border-2 rounded-full outline-4 box-border p-8'>
+            <img className='rounded-full w-[80px] h-[80px] ' src='./images/Img 5.jpg' alt=''></img>
           </div>
+          </div>
+
+         
 
         </div>
 
+        <div>
+          <div>
+          <h1>It’s possible to do <br></br> video call with <br></br> your customers</h1>
+          </div>
+          <div>
+            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br></br> sed do eiusmod tempor incididunt ut labore et dolore <br></br> magna aliqua. Ut enim ad minim veniam.”</p>
+          </div>
+          <div>
+            <img></img>
+            <h1></h1>
+            <p></p>
+          </div>
+        </div>
+
       </div>
+     
 
     </>
 
